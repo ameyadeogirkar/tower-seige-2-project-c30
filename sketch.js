@@ -46,6 +46,11 @@ function draw() {
   console.log(gameState);
   
   drawSprites();
+  textSize(25);
+  fill("cyan");
+  //stroke(0);
+  text("Plucking Mangoes - by AMEYA : ",400,50);
+  text("Press space to have another chance",400,350);
 
 }
 function mouseDragged(){
